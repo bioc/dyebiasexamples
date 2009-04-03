@@ -1,0 +1,18 @@
+2009-03-02  Philip Lijnzaad  <p.lijnzaad@umcutrecht.nl>
+
+	* version 1.0.3
+
+2009-02-27  Philip Lijnzaad  <p.lijnzaad@umcutrecht.nl>
+
+	* put under GPL v3
+
+2009-02-17  Philip Lijnzaad  <p.lijnzaad@umcutrecht.nl>
+
+	* version 1.0.2
+	* changed dependencies
+
+2009-02-09  Philip Lijnzaad  <p.lijnzaad@umcutrecht.nl>
+
+	* 1.0.1: due to bug in our release script, data was missing,
+	included now.
+
