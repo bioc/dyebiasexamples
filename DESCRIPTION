@@ -8,7 +8,7 @@ Description: Data for the dyebias package, consisting of 4 self-self
   from Array Express accession E-MTAB-32
 Maintainer: Philip Lijnzaad <p.lijnzaad@umcutrecht.nl>
 License: GPL v3
-Depends: R (>= 1.4.1), marray
-Suggests: dyebias, GEOquery, convert, Biobase
+Depends: R (>= 1.4.1), marray, GEOquery
+Suggests: dyebias, convert, Biobase
 URL: http://www.holstegelab.nl/publications/margaritis_lijnzaad
 biocViews: Microarray, TwoChannel, ExperimentData
