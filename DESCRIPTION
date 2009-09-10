@@ -1,5 +1,5 @@
 Package: dyebiasexamples
-Version: 1.0.4
+Version: 1.0.5
 Date: 7 Sep 2009
 Title: Example data for the dyebias package, which implements the GASSCO method.
 Author: Philip Lijnzaad <p.lijnzaad@umcutrecht.nl> and Thanasis Margaritis <a.margaritis@umcutrecht.nl>
@@ -7,7 +7,7 @@ Description: Data for the dyebias package, consisting of 4 self-self
   hybrizations of self-spotted yeast slides, as well as data 
   from Array Express accession E-MTAB-32
 Maintainer: Philip Lijnzaad <p.lijnzaad@umcutrecht.nl>
-License: GPL v3
+License: GPL-3
 Depends: R (>= 1.4.1), marray, GEOquery
 Suggests: dyebias, convert, Biobase
 URL: http://www.holstegelab.nl/publications/margaritis_lijnzaad
