@@ -70,7 +70,7 @@ dyebias.geo2marray <- function
 
   found.ids <- found.ids[ found.ids %in% spot.ids] # 
 
-  reporter.info <- merge(data.frame(ID=found.ids), table, by="ID", sort=TRUE) # now one row per valid spot
+  reporter.info <- merge(data.frame(ID=found.ids, stringsAsFactors=FALSE), table, by="ID", sort=TRUE) # now one row per valid spot
   
   spot.ids <- found.ids                  #now has the correct ordering
 
@@ -254,7 +254,7 @@ dyebias.geo2marray <- function
            result #  NA's will give errors in the warnings list
          },
          spot.ids)                      #arg to the func.
-  try( frame <- as.data.frame(list), silent=FALSE) 
+  try( frame <- as.data.frame(list, stringsAsFactors=FALSE), silent=FALSE) 
   if ( class(frame)=="try-error") {      # unequal number of columns
     stop("Failed to cast ", column.name, " of all slides to decent data.frame: ", frame,
          "\nyou prolly have different GPL ids with differnt numbers of spots\n",
@@ -289,7 +289,7 @@ dyebias.geo2marray <- function
     l[[col]]=NULL
   }
   
-  return(as.data.frame(l))
+  return(as.data.frame(l, stringsAsFactors=FALSE))
 }                                       # .gsmlist2targetinfo
 
 .have.umcu.version <- function() {

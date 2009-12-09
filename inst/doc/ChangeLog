@@ -1,3 +1,7 @@
+2009-12-09  Philip Lijnzaad  <p.lijnzaad@umcutrecht.nl>
+
+	* now stringsAsFactors=FALSE on all data.frame operations (v1.0.6)
+
 2009-09-07  Philip Lijnzaad  <p.lijnzaad@umcutrecht.nl>
 
 	* version 1.0.4 (GEOquery now Depends, not Suggests)
