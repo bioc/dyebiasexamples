@@ -1,5 +1,5 @@
 Package: dyebiasexamples
-Version: 1.5.0
+Version: 1.5.1
 Date: 9 Dec 2009
 Title: Example data for the dyebias package, which implements the GASSCO method.
 Author: Philip Lijnzaad <p.lijnzaad@umcutrecht.nl> and Thanasis Margaritis <a.margaritis@umcutrecht.nl>
@@ -11,4 +11,4 @@ License: GPL-3
 Depends: R (>= 1.4.1), marray, GEOquery
 Suggests: dyebias, convert, Biobase
 URL: http://www.holstegelab.nl/publications/margaritis_lijnzaad
-biocViews: Microarray, TwoChannel, ExperimentData
+biocViews: ExperimentData, SAGEData, CGHData, MicroarrayData, TwoChannelData, ArrayExpress
