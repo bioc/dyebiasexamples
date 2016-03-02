@@ -1,3 +1,7 @@
+2016-03-02  Philip Lijnzaad  <plijnzaad@gmail.com>
+
+	* change of maintainer email; version bump to 1.10.0
+
 2009-12-09  Philip Lijnzaad  <p.lijnzaad@umcutrecht.nl>
 
 	* now stringsAsFactors=FALSE on all data.frame operations (v1.0.6)
