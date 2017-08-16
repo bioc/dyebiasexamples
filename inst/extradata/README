@@ -1,0 +1,3 @@
+The *.txt data in this directory cannot be read with an R data() call, so had to go
+to this "extradata" directory. It can be read with marray`s read.GenePix(),
+see the dyebias vignette

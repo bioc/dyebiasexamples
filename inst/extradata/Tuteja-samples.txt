@@ -1,0 +1,6 @@
+slide	filename	Cy3	Cy5
+1	E-MTAB-32-raw-data-1641029399.txt	input	FoxA2
+2	E-MTAB-32-raw-data-1641029407.txt	input	FoxA2
+3	E-MTAB-32-raw-data-1641029415.txt	FoxA2	input
+4	E-MTAB-32-raw-data-1641029423.txt	FoxA2	input
+5	E-MTAB-32-raw-data-1641029431.txt	input	FoxA2

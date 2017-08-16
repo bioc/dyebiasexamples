@@ -1,0 +1,3 @@
+Some of the other data cannot be read by an R data() statement, and is
+therefore in the extradata/ directory
+
